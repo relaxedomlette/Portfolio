@@ -481,6 +481,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
   padding-bottom: 50px;
   border-bottom: 1px solid #e5ebf2;
 }
+
 .single-progress-txt {
   display: flex;
 }
@@ -645,8 +646,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 .alignIcon {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .profiles-content {
@@ -663,7 +665,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 .single-profile {
   position: relative;
-  height: 150px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
