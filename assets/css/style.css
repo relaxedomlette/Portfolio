@@ -401,10 +401,11 @@ nav.navbar.bootsnav .navbar-toggle i {
   justify-content: center;
 }
 .alignItemsRow {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  text-align: center;
 }
 
 .education-horizontal-timeline {
@@ -415,7 +416,12 @@ nav.navbar.bootsnav .navbar-toggle i {
 .education-horizontal-timeline .col-sm-4 {
   padding: 0 2px;
 }
-
+.single-horizontal-timeline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .single-horizontal-timeline .experience-time h3 {
   text-transform: capitalize;
 }
@@ -436,11 +442,11 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 /*.timeline-horizontal-border*/
-.timeline-horizontal-border {
+/* .timeline-horizontal-border {
   display: flex;
   align-items: center;
   padding: 26px 0 15px;
-}
+} */
 .timeline-horizontal-border i {
   font-size: 10px;
   color: #d92cf9;
