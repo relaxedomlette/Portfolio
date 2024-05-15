@@ -900,6 +900,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 .contact-add-head h3 {
   font-size: 24px;
   color: #3c4258;
+  align-items: center;
+  text-align: center;
 }
 .contact-add-head p {
   font-size: 16px;
