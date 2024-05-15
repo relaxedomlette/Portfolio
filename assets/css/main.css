@@ -2654,6 +2654,8 @@ input[type="radio"]:focus + label:before {
   text-decoration: none;
   border-bottom: none;
   position: relative;
+  width: 35px;
+  height: 35px;
 }
 
 .icon:before {
@@ -2667,6 +2669,7 @@ input[type="radio"]:focus + label:before {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+  font-size: 35px;
 }
 
 .icon > .label {
@@ -2683,7 +2686,7 @@ input[type="radio"]:focus + label:before {
 
 .icon.brands:before {
   font-family: "Font Awesome 5 Brands";
-  width: 50px;
+  width: 35px;
 }
 
 /* Image */
